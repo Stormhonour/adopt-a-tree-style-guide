@@ -3,6 +3,7 @@
 
 @import "partials/functions";
 @import "partials/variables";
+@import "partials/colors";
 
 // Variables: Style Guide: Sidebar
 $style-guide-sidebar-width: 200px;
@@ -199,4 +200,32 @@ $z-index-style-guide-menu: 1000;
   margin: $spacing-2 auto $spacing-3;
   display: block;
   width: 100px;
+}
+
+.style-guide-box-demo {
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: top;
+  margin: $spacing 0 $spacing-2;
+
+  &.white-bg, &.gray-mist-bg {
+    border: 1px solid $gray-cloud;
+  }
+}
+
+// Style Guide: Demo Block: Colors: Modifier
+.style-guide-demo-each--colors {
+  font-size: $font-size-sm;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  > div {
+    padding: 0 $grid-gutter;
+  }
+
+  .white, .gray-mist, .color-disabled {
+    background-color: $gray-lead;
+  }
 }

@@ -10,6 +10,114 @@
  @param$target-font-size {number} : The desired font size for the target
  @param $base-font-size	{number} : Base font size for the body's text
  */
+/**
+ Converts Pixels to Percentages. Used for Font Sizes
+
+ @param$target-font-size {number} : The desired font size for the target
+ @param $base-font-size	{number} : Base font size for the body's text
+ */
+.brand-1 {
+  color: #3ABB8D; }
+
+.brand-1-bg {
+  background-color: #3ABB8D; }
+
+.brand-1-light {
+  color: #75C8AA; }
+
+.brand-1-light-bg {
+  background-color: #75C8AA; }
+
+.brand-1-x-light {
+  color: #C7E9DD; }
+
+.brand-1-x-light-bg {
+  background-color: #C7E9DD; }
+
+.brand-2 {
+  color: #313C5A; }
+
+.brand-2-bg {
+  background-color: #313C5A; }
+
+.brand-2-light {
+  color: #41568C; }
+
+.brand-2-light-bg {
+  background-color: #41568C; }
+
+.red-crimson {
+  color: #D05858; }
+
+.red-crimson-bg {
+  background-color: #D05858; }
+
+.blue-aqua {
+  color: #3E9CD0; }
+
+.blue-aqua-bg {
+  background-color: #3E9CD0; }
+
+.black {
+  color: #000; }
+
+.black-bg {
+  background-color: #000; }
+
+.gray-coal {
+  color: #222; }
+
+.gray-coal-bg {
+  background-color: #222; }
+
+.gray-lead {
+  color: #666; }
+
+.gray-lead-bg {
+  background-color: #666; }
+
+.gray-cement {
+  color: #999; }
+
+.gray-cement-bg {
+  background-color: #999; }
+
+.gray-titanium {
+  color: #AAA; }
+
+.gray-titanium-bg {
+  background-color: #AAA; }
+
+.gray-cloud {
+  color: #DADEE8; }
+
+.gray-cloud-bg {
+  background-color: #DADEE8; }
+
+.gray-mist {
+  color: #F1F1F1; }
+
+.gray-mist-bg {
+  background-color: #F1F1F1; }
+
+.white {
+  color: #FFF; }
+
+.white-bg {
+  background-color: #FFF; }
+
+.color-font {
+  color: #666; }
+
+.color-font-bg {
+  background-color: #666; }
+
+.color-link {
+  color: #3ABB8D; }
+
+.color-link-bg {
+  background-color: #3ABB8D; }
+
 .btn-style-guide-menu {
   background-color: #F1F1F1;
   border-radius: 0;
@@ -145,3 +253,22 @@
   margin: 20px auto 30px;
   display: block;
   width: 100px; }
+
+.style-guide-box-demo {
+  width: 100px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 0 20px; }
+  .style-guide-box-demo.white-bg, .style-guide-box-demo.gray-mist-bg {
+    border: 1px solid #DADEE8; }
+
+.style-guide-demo-each--colors {
+  font-size: 85.71429%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .style-guide-demo-each--colors > div {
+    padding: 0 7.5px; }
+  .style-guide-demo-each--colors .white, .style-guide-demo-each--colors .gray-mist, .style-guide-demo-each--colors .color-disabled {
+    background-color: #666; }
