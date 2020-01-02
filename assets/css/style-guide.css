@@ -1,0 +1,147 @@
+/**
+ Converts Pixels to Percentages. Used for Font Sizes
+
+ @param$target-font-size {number} : The desired font size for the target
+ @param $base-font-size	{number} : Base font size for the body's text
+ */
+/**
+ Converts Pixels to Percentages. Used for Font Sizes
+
+ @param$target-font-size {number} : The desired font size for the target
+ @param $base-font-size	{number} : Base font size for the body's text
+ */
+.btn-style-guide-menu {
+  background-color: #F1F1F1;
+  border-radius: 0;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000; }
+  @media (min-width: 600px) {
+    .btn-style-guide-menu {
+      display: none; } }
+
+.style-guide-sidebar {
+  background-color: #FFF;
+  font-weight: 600;
+  padding-bottom: 150px;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  bottom: 0;
+  overflow: auto;
+  z-index: 1000;
+  transition: all 0.2s linear; }
+  @media (max-width: 599px) {
+    .style-guide-sidebar {
+      left: -200px;
+      top: 30px; } }
+  @media (min-width: 600px) {
+    .style-guide-sidebar {
+      left: 0;
+      top: 0; } }
+  .style-guide-sidebar a {
+    padding: 5px 10px;
+    display: block; }
+    .style-guide-sidebar a.active {
+      color: #FFF;
+      background-color: #313C5A; }
+
+.style-guide-sidebar--show {
+  left: 0;
+  transition: all 0.2s linear; }
+  @media (max-width: 599px) {
+    .style-guide-sidebar--show {
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); } }
+
+.style-guide-link-label {
+  color: #313C5A;
+  background: #F1F1F1;
+  border-radius: 50%;
+  font-size: 71.42857%;
+  font-weight: 700;
+  padding: 2px 5px;
+  margin-left: 5px;
+  display: inline-block; }
+
+.style-guide-logo {
+  display: block;
+  margin: 0 auto 30px; }
+
+.style-guide-heading {
+  text-align: center;
+  margin: 0; }
+
+.style-guide-content {
+  padding: 50px 0 30px 0;
+  max-width: 1200px; }
+  @media (min-width: 600px) {
+    .style-guide-content {
+      padding: 30px 20px 0 220px;
+      margin: 0 auto; } }
+  .style-guide-content pre {
+    white-space: pre-wrap; }
+
+.style-guide-section {
+  padding: 60px 0 0 0; }
+  .style-guide-section > .style-guide-section-docs {
+    padding: 0 20px; }
+  .style-guide-section > h2 {
+    text-align: center; }
+
+.style-guide-section-docs {
+  max-width: 650px;
+  margin: 0 auto 20px auto; }
+
+.style-guide-section-block {
+  background-color: #FFF;
+  padding: 20px; }
+  .style-guide-section-block > h3 {
+    color: #999;
+    text-align: center;
+    padding: 0 0 10px 0; }
+  .style-guide-section-block > h4 {
+    text-align: center;
+    margin-bottom: 10px; }
+
+.style-guide-section-files {
+  font-style: italic;
+  text-align: center;
+  margin: 0 0 20px 0; }
+
+.style-guide-code-inline {
+  font-family: "Inconsolata", monospace;
+  background-color: #FFF;
+  padding: 0 2.5px; }
+
+.style-guide-code-block {
+  background-color: #C7E9DD;
+  border: 1px solid #3ABB8D;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  display: block; }
+  .style-guide-demo-block .style-guide-code-block {
+    display: none; }
+
+.style-guide-demo-block .style-guide-code-block--show {
+  display: block; }
+
+.style-guide-dont, .style-guide-do {
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.style-guide-do {
+  color: #3ABB8D; }
+
+.style-guide-dont {
+  color: #D05858; }
+
+.btn-style-guide-code {
+  margin: 20px auto 30px;
+  display: block;
+  width: 100px; }

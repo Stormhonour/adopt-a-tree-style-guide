@@ -1,0 +1,115 @@
+// ---------------------------------------------
+// VARIABLES
+
+@import "functions";
+
+// ---------------------------------------------
+// VARIABLES: COLORS
+
+// Colors: Brand
+$brand-1: #3ABB8D;
+$brand-1-light: #75C8AA;
+$brand-1-x-light: #C7E9DD;
+$brand-2: #313C5A;
+$brand-2-light: #41568C;
+
+// Colors: Warm
+$red-crimson: #D05858;
+
+// Colors: Cool
+$blue-aqua: #3E9CD0;
+
+// Colors: Black, White, Gray Spectrum
+$black: #000;
+$gray-coal: #222;
+$gray-lead: #666;
+$gray-cement: #999;
+$gray-titanium: #AAA;
+$gray-cloud: #DADEE8;
+$gray-mist: #F1F1F1;
+$white: #FFF;
+
+// Colors: Typography
+$color-font: $gray-lead;
+$color-link: $brand-1;
+
+
+// ---------------------------------------------
+// VARIABLES: FONTS
+
+// Fonts: Families
+$font-family-1: "Nunito Sans", sans-serif;
+
+// Fonts: Weights
+$font-regular: 400;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+// Fonts: Line Height
+$line-height: 1.5;
+
+// Fonts: Sizes
+$font-size: 14px;
+$font-size-sm: px-to-percent(12);
+$font-size-xs: px-to-percent(10);
+$font-size-lg: px-to-percent(16);
+
+// Fonts: Headings: Sizes
+$h1: px-to-percent(24);
+$h2: px-to-percent(22);
+$h3: px-to-percent(20);
+$h4: px-to-percent(18);
+$h5: px-to-percent(16);
+$h6: px-to-percent(14);
+
+
+// ---------------------------------------------
+// VARIABLES: FONT ICONS
+
+// Font Icons: Families
+$font-family-icon: "icomoon";
+
+// Font Icons: Spacing: Left and Right
+$icon-spacing: 5px;
+$icon-spacing-lg: ($icon-spacing * 2);
+
+// Font Icons: Sizes
+$icon-size-lg: px-to-percent(16);
+$icon-size-xl: px-to-percent(18);
+$icon-size-xxl: px-to-percent(24);
+
+
+// ---------------------------------------------
+// VARIABLES: MEDIA QUERIES
+
+// Media Queries: Min-width
+$media-lg: 1200px;
+$media-mid: 900px;
+$media-sm: 600px;
+
+// Media Queries: Max-width
+$media-lg-max: (($media-lg) - 1);
+$media-mid-max: (($media-mid) - 1);
+$media-sm-max: (($media-sm) - 1);
+
+
+// ---------------------------------------------
+// VARIABLES: GRID
+
+// Grid: Column Count
+$grid-column-count: 12;
+
+// Grid: Gutters
+$grid-gutter: 7.5px;
+$grid-gutter-sm: ($grid-gutter / 2);
+$grid-gutter-lg: ($grid-gutter * 2);
+
+
+// ---------------------------------------------
+// VARIABLES: SPACING
+// Use for padding, margins, etc.
+
+$spacing: 10px;
+$spacing-2: ($spacing * 2);
+$spacing-3: ($spacing * 3);
+$spacing-half: ($spacing / 2);
