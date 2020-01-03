@@ -4,6 +4,7 @@
 @import "partials/functions";
 @import "partials/variables";
 @import "partials/colors";
+@import "partials/spacing";
 
 // Variables: Style Guide: Sidebar
 $style-guide-sidebar-width: 200px;
@@ -227,5 +228,13 @@ $z-index-style-guide-menu: 1000;
 
   .white, .gray-mist, .color-disabled {
     background-color: $gray-lead;
+  }
+}
+
+// Style Guide: Demo Block: Spacing: Modifier
+.style-guide-demo-each--spacing {
+  > div {
+    background-color: $gray-mist;
+    margin-bottom: $spacing;
   }
 }

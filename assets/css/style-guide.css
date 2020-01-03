@@ -118,6 +118,104 @@
 .color-link-bg {
   background-color: #3ABB8D; }
 
+/**
+ Converts Pixels to Percentages. Used for Font Sizes
+
+ @param$target-font-size {number} : The desired font size for the target
+ @param $base-font-size	{number} : Base font size for the body's text
+ */
+.spacing {
+  padding: 10px; }
+
+.spacing-h {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.spacing-v {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.spacing-l {
+  padding-left: 10px; }
+
+.spacing-r {
+  padding-right: 10px; }
+
+.spacing-t {
+  padding-top: 10px; }
+
+.spacing-b {
+  padding-bottom: 10px; }
+
+.spacing-2 {
+  padding: 20px; }
+
+.spacing-2-h {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.spacing-2-v {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.spacing-2-l {
+  padding-left: 20px; }
+
+.spacing-2-r {
+  padding-right: 20px; }
+
+.spacing-2-t {
+  padding-top: 20px; }
+
+.spacing-2-b {
+  padding-bottom: 20px; }
+
+.spacing-3 {
+  padding: 30px; }
+
+.spacing-3-h {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.spacing-3-v {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.spacing-3-l {
+  padding-left: 30px; }
+
+.spacing-3-r {
+  padding-right: 30px; }
+
+.spacing-3-t {
+  padding-top: 30px; }
+
+.spacing-3-b {
+  padding-bottom: 30px; }
+
+.spacing-half {
+  padding: 5px; }
+
+.spacing-half-h {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.spacing-half-v {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.spacing-half-l {
+  padding-left: 5px; }
+
+.spacing-half-r {
+  padding-right: 5px; }
+
+.spacing-half-t {
+  padding-top: 5px; }
+
+.spacing-half-b {
+  padding-bottom: 5px; }
+
 .btn-style-guide-menu {
   background-color: #F1F1F1;
   border-radius: 0;
@@ -272,3 +370,7 @@
     padding: 0 7.5px; }
   .style-guide-demo-each--colors .white, .style-guide-demo-each--colors .gray-mist, .style-guide-demo-each--colors .color-disabled {
     background-color: #666; }
+
+.style-guide-demo-each--spacing > div {
+  background-color: #F1F1F1;
+  margin-bottom: 10px; }
